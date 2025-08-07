@@ -9,7 +9,7 @@ connectDB(); // connect to MongoDB
 const app = express();
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://nova-erp-aavu.vercel.app"
+  "https://vnova-erp.vercel.app"
 ];
 
 app.use(cors({
